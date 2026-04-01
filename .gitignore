@@ -1,0 +1,21 @@
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.db.example
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.db.example
+
+# Python
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+
+# Node.js
+node_modules/
+**/node_modules/
+
+# Local artifacts
+API/benchmark_results.csv

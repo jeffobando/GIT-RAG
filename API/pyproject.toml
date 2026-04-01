@@ -1,0 +1,19 @@
+[project]
+name = "rag-api"
+version = "0.1.0"
+description = "FastAPI API for RAG system"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "pydantic-settings",
+    "sqlalchemy",
+    "psycopg[binary]",
+    "numpy",
+    "faiss-cpu",
+    "sentence-transformers",
+    "openai",
+    "pypdf",
+    "ftfy",
+    "python-multipart"
+]
